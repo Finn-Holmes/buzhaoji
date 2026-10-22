@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_preview_dark_background"
+    android:gravity="center_horizontal|top"
+    android:padding="14dp"
+    android:text="‹   第 8 周   ›&#10;&#10;日    一    二    三    四    五    六&#10;29   30   31    1     2     3     4&#10;&#10;高数        英语       计算机&#10;08:00     10:00      14:00&#10;&#10;                体育       物联网&#10;               16:00      18:00"
+    android:textColor="#FFFFFF"
+    android:textSize="13sp"
+    android:textStyle="bold" />

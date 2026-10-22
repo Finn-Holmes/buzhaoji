@@ -1,0 +1,35 @@
+.gradle/
+.idea/
+local.properties
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+.tools/
+*.iml
+
+# Local tooling, credentials, signing files and runtime data
+.kotlin/
+.agents/
+.codex/
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.p12
+*.key
+*.db
+*.db-wal
+*.db-shm
+*.apk
+*.aab
+*.log
+
+# Local QA backups, screenshots, UI dumps and design experiments
+/tmp/
+/kexu-*.png
+/kexu-*.xml
+/reference-*
+/design/icon-candidates/
+/docs/brand/

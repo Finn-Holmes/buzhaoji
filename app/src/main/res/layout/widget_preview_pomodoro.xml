@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:gravity="center_vertical" android:padding="16dp"
+    android:background="@drawable/widget_preview_rhythm_surface">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:paddingVertical="3dp" android:maxLines="1" android:ellipsize="end"
+        android:text="25:00                        ▶       ⋮" android:textColor="#F0C3AE" android:textSize="22sp" android:textStyle="bold" />
+</LinearLayout>

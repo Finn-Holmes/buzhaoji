@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:gravity="center_vertical" android:padding="16dp"
+    android:background="@drawable/widget_preview_expectation_surface">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:paddingVertical="3dp" android:maxLines="1" android:ellipsize="end"
+        android:text="值得期待 · 下次旅行" android:textColor="#92596C" android:textSize="13sp" android:textStyle="bold" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:paddingVertical="3dp" android:maxLines="1" android:ellipsize="end"
+        android:text="7" android:textColor="#92596C" android:textSize="40sp" android:textStyle="bold" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:paddingVertical="3dp" android:maxLines="1" android:ellipsize="end"
+        android:text="还有这么多天" android:textColor="#92596C" android:textSize="12sp" android:textStyle="bold" />
+</LinearLayout>

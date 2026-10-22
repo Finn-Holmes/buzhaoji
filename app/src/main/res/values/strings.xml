@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">不着急</string>
+    <string name="widget_today_name">不着急 · 今日</string>
+    <string name="widget_compact_name">不着急 · 紧凑</string>
+    <string name="widget_timetable_name">不着急 · 课表</string>
+    <string name="widget_habit_name">不着急 · 今日习惯</string>
+    <string name="widget_countdown_name">不着急 · 倒数纪念日</string>
+    <string name="widget_countdown_list_name">不着急 · 倒数纪念日列表</string>
+    <string name="widget_pomodoro_name">不着急 · 番茄</string>
+    <string name="widget_stats_name">不着急 · 任务完成统计</string>
+    <string name="widget_config_name">设置不着急小组件</string>
+    <string name="widget_loading">正在读取今日安排…</string>
+    <string name="widget_pomodoro_default_time" translatable="false">25:00</string>
+    <string name="widget_pomodoro_play" translatable="false">▶</string>
+    <string name="widget_more" translatable="false">⋮</string>
+</resources>

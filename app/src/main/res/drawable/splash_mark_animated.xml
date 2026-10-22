@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/splash_mark">
+    <target
+        android:name="mascot"
+        android:animation="@animator/splash_mascot_enter" />
+    <target
+        android:name="sleep_marks"
+        android:animation="@animator/splash_sleep_marks_enter" />
+</animated-vector>

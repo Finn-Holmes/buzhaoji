@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:gravity="center_vertical" android:padding="16dp"
+    android:background="@drawable/widget_preview_rhythm_surface">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:paddingVertical="3dp" android:maxLines="1" android:ellipsize="end"
+        android:text="每一点，都算数" android:textColor="#F0C3AE" android:textSize="12sp" android:textStyle="bold" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:paddingVertical="3dp" android:maxLines="1" android:ellipsize="end"
+        android:text="3 件" android:textColor="#F0C3AE" android:textSize="30sp" android:textStyle="bold" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:paddingVertical="3dp" android:maxLines="1" android:ellipsize="end"
+        android:text="今天完成 · 近 7 天 12 件" android:textColor="#F0C3AE" android:textSize="11sp" android:textStyle="bold" />
+</LinearLayout>

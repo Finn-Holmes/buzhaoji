@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:gravity="center_vertical" android:padding="16dp"
+    android:background="@drawable/widget_preview_habit_surface">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:paddingVertical="3dp" android:maxLines="1" android:ellipsize="end"
+        android:text="日常一小步" android:textColor="#3E3649" android:textSize="12sp" android:textStyle="bold" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:paddingVertical="3dp" android:maxLines="1" android:ellipsize="end"
+        android:text="每天读几页书" android:textColor="#3E3649" android:textSize="18sp" android:textStyle="bold" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:paddingVertical="3dp" android:maxLines="1" android:ellipsize="end"
+        android:text="○  轻点，完成今天" android:textColor="#3E3649" android:textSize="12sp" android:textStyle="bold" />
+</LinearLayout>

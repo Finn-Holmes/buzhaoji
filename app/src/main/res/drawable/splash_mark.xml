@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- All artwork, including its motion, stays inside the radius-36 splash safe area.
+         Transparent outer space prevents Android's circular mask clipping the sleep marks. -->
+    <group
+        android:name="mascot"
+        android:pivotX="54"
+        android:pivotY="54">
+        <path
+            android:fillColor="@color/splash_mark_fill"
+            android:pathData="M25,64C25,47 37,36 52,36C68,36 81,49 81,65C81,75 74,78 53,78C32,78 25,75 25,64Z" />
+
+        <path
+            android:fillColor="@color/splash_mark"
+            android:fillAlpha="0.10"
+            android:pathData="M25,64C27,70 36,73 53,73C69,73 78,70 81,65C81,75 74,78 53,78C32,78 25,75 25,64Z" />
+
+        <path
+            android:fillColor="@android:color/transparent"
+            android:pathData="M34,49C38,43 43,41 49,41"
+            android:strokeColor="@color/splash_mark"
+            android:strokeAlpha="0.16"
+            android:strokeLineCap="round"
+            android:strokeWidth="2.5" />
+
+        <path
+            android:fillColor="@android:color/transparent"
+            android:pathData="M37,57C40,61 44,61 47,57M59,57C62,61 66,61 69,57"
+            android:strokeColor="@color/splash_mark"
+            android:strokeLineCap="round"
+            android:strokeWidth="3" />
+    </group>
+
+    <group android:name="sleep_marks">
+        <path
+            android:fillColor="@android:color/transparent"
+            android:pathData="M62,34L69,34L62,42L69,42M69,26L74,26L69,31L74,31"
+            android:strokeColor="@color/splash_mark"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:strokeWidth="2.5" />
+    </group>
+</vector>
